@@ -6,12 +6,24 @@
 - zmiana nazwy zlaczonych commitow 
 - po wykonaniu komendy otwiera sie domyślny edytor
 - commity, ktore chcemy złączyć
+
+*złaczanie commitów*
 ```
 pick <sha1> <commit message>
 fixup <sha1> <commit message>
 fixup <sha1> <commit message>
 ```
 - zmieniamy slowo z pick na fixup commitow ktore chcemy złączyć
+
+Zmiana nazwy ostatniego commita ex.
+```
+pick <sha1> <commit message> 
+```
+na 
+```
+reword <sha1> <commit message> 
+```
+Przenosi nas na kolejny ekran wpisania nowej nazwy commita
 
 ```git push --force (-f)```
 - nie należy wykonywać dla ważnych gałęzi z których korzystają inni developerzy! 
