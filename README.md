@@ -31,5 +31,5 @@ Przenosi nas na kolejny ekran wpisania nowej nazwy commita
 
 
 ### Przydatne linki
-Simple doc: https://rogerdudler.github.io/git-guide/index.pl.html
+Simple doc: https://rogerdudler.github.io/git-guide/index.pl.html 
 --fixup=Commit: https://devstyle.pl/2013/10/24/git-commit-fixup/
