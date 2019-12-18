@@ -1,6 +1,10 @@
 ### Git - użyteczna wiedza
 ```git fetch origin (-a) && git reset --hard origin/master``` :pobierz zmiany i pobierz ostatnią historię z serwera dla gałęzi zdalnej master
 
+```Jak wykonać squash commits```
+
+
+
 ```git rebase -i HEAD~3```
 - umożliwia np. złączenie 3 ostatnich _commitów_ 
 - zmiana nazwy zlaczonych commitow 
